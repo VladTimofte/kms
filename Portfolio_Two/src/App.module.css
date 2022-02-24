@@ -1,0 +1,20 @@
+.appStyled {
+	position: relative;
+	margin-left: 16.3rem;
+	min-height: 100vh;
+	transition: all .4s ease-in-out;
+}
+
+body {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+@media screen and (max-width:1200px) {
+	.appStyled {
+		position: relative;
+		margin-left: 0;
+		min-height: 100vh;
+		transition: all .4s ease-in-out;
+	}
+}

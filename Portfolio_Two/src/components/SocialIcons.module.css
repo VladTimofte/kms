@@ -1,0 +1,64 @@
+ .icons {
+ 	display: flex;
+ 	justify-content: center;
+ 	margin-top: 1rem;
+ }
+
+
+ .iWhatsApp {
+ 	color: green;
+ 	padding: 1.5rem;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	border-radius: 50%;
+ 	transition: all .4s ease-in-out;
+ 	cursor: pointer;
+ }
+
+ .iWhatsApp :hover {
+ 	border: 2px solid green;
+ 	color: green;
+ 	border-radius: 100%;
+ 	padding: .30rem;
+ 	transition: 100ms;
+ }
+
+ .iGithub {
+ 	color: #5F4687;
+ 	padding: 1.5rem;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	border-radius: 50%;
+ 	transition: all .4s ease-in-out;
+ 	cursor: pointer;
+ }
+
+ .iGithub :hover {
+ 	border: 2px solid #5F4687;
+ 	color: #5F4687;
+ 	border-radius: 100%;
+ 	padding: .30rem;
+ 	transition: 100ms;
+ }
+
+ .iLinkedin {
+ 	color: #0966C2;
+ 	padding: 1.5rem;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	border-radius: 50%;
+ 	transition: all .4s ease-in-out;
+ 	cursor: pointer;
+ }
+
+ .iLinkedin :hover {
+ 	border: 2px solid #0966C2;
+ 	color: #0966C2;
+ 	border-radius: 100%;
+ 	padding: .30rem;
+ 	transition: 100ms;
+
+ }

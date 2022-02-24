@@ -1,0 +1,8 @@
+.textTransitionStyled {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: black;
+	font-size: 25px;
+	font-family: cursive;
+}
