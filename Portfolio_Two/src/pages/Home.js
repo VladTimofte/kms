@@ -12,6 +12,9 @@ function HomePage() {
 				<h1>Hi, I'm Vlad</h1>
 					<TextTransitionEffect />
 					<SocialIcons />
+				<div class={classes.arrowContainer}>
+					<div class={classes.arrowDown}></div>
+				</div>
 			</div>
 		</div>
 	)

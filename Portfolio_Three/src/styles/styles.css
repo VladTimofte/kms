@@ -1,0 +1,122 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#home {
+  background-color: pink;
+}
+
+#aboutMe {
+  background-color: yellow;
+}
+
+#whatIDo {
+  background-color: lightgreen;
+}
+
+#resume {
+  background-color: lightblue;
+}
+
+#portfolio {
+  background-color: lightcoral;
+}
+
+#contact {
+  background-color: lightseagreen;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: 13vw auto;
+}
+
+.sidebar {
+  position: fixed;
+  align-items: start;
+  width: 13vw;
+  height: 100vw;
+  transition: all .4s ease-in-out;
+  background: #111418;
+}
+
+.main {
+  grid-column-start: 2;
+}
+
+h1{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+.sidebarContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas:
+    "One"
+    "Two"
+    "Three";
+}
+
+.One {
+  grid-area: One;
+}
+
+.Two {
+  grid-area: Two;
+}
+
+.Three {
+  grid-area: Three;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+Remove if SandBox wont work */
+.body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.element {
+  height: 1000px;
+  background-color: #ededed;
+  font-size: 45px;
+  border-top: 1px solid #000;
+  padding-top: 55px;
+  padding-left: 10px;
+}
+
+.element.no-padding {
+  padding-top: 0;
+}
+
+.active {
+  color: red !important;
+}
